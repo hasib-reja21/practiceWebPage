@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .menu {}
+
+        .menu ul {
+            
+            list-style: none;
+            display: -webkit-inline-box;
+           
+
+        }
+
+        .menu ul li {
+            
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            justify-content: end;
+            margin: 20px;
+            font-size: 18px;
+            color: rgb(1, 36, 1);
+        }
+        .menu ul li a:hover{
+            color: brown;
+            border-radius: 7px;
+            
+        }
+
+        #btn {
+            
+            color: white;
+            margin-top: 15px;
+            height: 40px;
+            width: 60px;
+            background-color: blueviolet;
+            border-radius: 7px;
+            border: 1px saddlebrown;
+        }
+
+
+        .right {
+            float: right;
+            margin-right: 20px;
+        }
+
+        .logo {
+            font-size: 29px;
+            margin-left: 65px;
+            margin-top: 13px;
+        }
+
+        #div {
+            display: flex;
+            background-color: white;
+            height: 617px;
+            
+            width:844px;
+            margin: 0 auto;
+            margin-top: 75px;
+        }
+        .hero-text{
+            margin-right: 20px;
+            transform: translate(-10%,26%);
+            font-size: 15px;
+        }
+        .hero-text h1{
+            
+            color: rgb(2, 119, 80);
+            
+        }
+        .hero-text p{
+            color: rgb(1, 46, 1);
+            
+        }
+        #button{
+            height: 33px;
+            width: 109px;
+            border-radius: 10px;
+            border: 1px solid green;
+            background-color: green;
+        }
+        .container {
+        margin: 10px;
+        padding:3px;
+        background-color:rgb(235, 233, 251);
+        height: 300px;
+        width: 250px;
+        border-radius:10px;
+        opacity: 80%;
+        transform: translate(172%,-93%);
+        }
+        #b3 {
+      
+        width: 120px;
+        height: 20px;
+        display: block;
+        margin: auto;
+        padding: 16px;
+        border-radius: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .form-control{
+        padding: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        
+      }
+     
+    </style>
+</head>
+
+<body style="background-color: black;">
+    <div id="div">
+        <div class="header">
+
+            <nav class="menu">
+                <div class="logo" style="float: left;;">StartP</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Page</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li><br>
+
+                    </ul>
+                    <button id="btn">LOGIN</button><br>
+
+                    <div class="hero-image">
+                        <div class="hero-text">
+                          <h1 style="font-size:40px">Built For Developers</h1>
+                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting .<br>Lorem Ipsum has been the industry standard dummy text the 1500s<br>when an unknown printer took a galley</p>
+
+                          <button id="button"> GET STARTED</button>
+                            <div class="container">
+                            
+                            
+                            <form id="form-control">
+                                <div class="mb-3">
+                                <label for="name" class="form-label">Name</label><br>
+                                <input type="password" class="form-control"id="exampleInputPassword1"/>
+                                </div>
+
+                                <div class="mb-2">
+                                <label for="email" class="form-label">Email</label><br>
+                                <input type="email" class="form-control" id="email" />
+                                </div>
+
+                                <div class="mb-2">
+                                <label for="exampleInputPassword1" class="form-label">Password</label><br>
+                                <input
+                                    type="password"
+                                    class="form-control"
+                                    id="exampleInputPassword1"
+                                />
+                                </div>
+
+                                <div id="b3">
+                                <button onclick="myFunction()">SUBMIT</button>
+                                </div>
+                            </form>
+                            </div>
+                            <!-- End Example Code -->
+
+                <!-- start js code-->
+                <script>
+                function myFunction(){
+                    alert("Do you want to submit the form?");
+                }
+                </script>
+
+                <!-- End js code-->
+                          
+
+                        </div>
+                      </div>
+                    
+                    
+                </div>
+            </nav> 
+        </div>
+    
+        
+           
+    
+    </div>
+    
+
+</body>
+
+</html>
